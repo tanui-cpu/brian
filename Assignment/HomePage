@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Home Page</h1>
+        <a href="HomePage">Home</a> &#124; 
+        <a href="About">About</a> &#124; 
+        <a href="Hobbies">My Hobbies</a> &#124; 
+        <a href="MyProject">My Project</a> &#124;
+        <a href="ContactUs">Contact us</a>
+    </div>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <caption>My first table</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+            <td>New York</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+            <td>Los Angeles</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>30</td>
+            <td>Berlin</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Garcia</td>
+            <td>28</td>
+            <td>Madrid</td>
+            <td>Spain</td>
+        </tr>
+        <tr>
+            <td>Li</td>
+            <td>Wang</td>
+            <td>35</td>
+            <td>Beijing</td>
+            <td>China</td>
+        </tr>
+       
+
+    </table>
+
+    <p>Hello, what is your name? and where do you come from?</p>
+    <p>Mein name ist Brian, ich komme aus Deutschland, ich wohne in Berlin.</p>
+    <p>Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank.</p>
+
+    <ul type="square">
+        <li>Ich studiere an der Strathmore University.</li>
+        <li>Woher kommst du?</li>
+        <li>Mein Name ist Brian.</li>
+    </ul>
+
+    <ol type="a" start="5">
+        <li>Ich studiere an der Strathmore University.</li>
+        <li>Woher kommst du?</li>
+        <li>Mein Name ist Brian.</li>
+    </ol>
+    <p>HTML entities: &AMP; &copy; &lt; &gt;</p>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>My Project</h1>
+        <a href="HomePage">Home</a> &#124;
+        <a href="About">About</a> &#124;
+        <a href="Hobbies">My Hobbies</a> &#124;
+        <a href="MyProject">My Project</a> &#124;
+        <a href="ContactUs">Contact us</a>
+
+    </div>
+
+    <h1>Project Title: Web-Based Water Pollution Tracking System</h1>
+    <h2>Project Description</h2>
+    <p>The project proposes a Web-Based Water Pollution Tracking System that enables users (citizens, authorities, NGOs) to report, visualize, and monitor pollution incidents in real-time.</p>
+    <p>It aims to enhance transparency, accountability, and community engagement in environmental protection efforts.</p>
+
+    <p>HTML entities: &AMP; &copy; &lt; &gt;</p>
+    <div>
+        <img src="images/wastewater.jpg" alt="" width="200" height="142">
+    </div>
+    <div>
+        <p>Project Features:</p>
+        <ul>
+            <li>Real-time reporting of pollution incidents</li>
+            <li>Interactive map for visualizing pollution hotspots</li>
+            <li>User-friendly interface for easy navigation</li>
+            <li>Data analytics for trend analysis and reporting</li>
+        </ul>
+        <p>Technologies Used:</p>
+        <ul>
+            <li>HTML, CSS, JavaScript for front-end development</li>
+            <li>Node.js and Express for back-end services</li>
+            <li>MongoDB for database management</li>
+            <li>Google Maps API for location services</li>
+        </ul>
+        <p>Project Goals:</p>
+        <ul>
+            <li>Increase public awareness of water pollution issues</li>
+            <li>Facilitate community involvement in environmental protection</li>
+            <li>Provide a platform for data-driven decision making</li>
+            <li>Enhance collaboration between citizens and authorities</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

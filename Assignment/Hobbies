@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Home Page</h1>
+        <a href="HomePage">Home</a> &#124; 
+        <a href="About">About</a> &#124; 
+        <a href="Hobbies">My Hobbies</a> &#124; 
+        <a href="MyProject">My Project</a> &#124;
+        <a href="ContactUs">Contact us</a>
+    </div>
+
+    <p>Welcome to my hobbies page! Here, I will share some of my interests and activities that I enjoy in my free time.</p>
+    <p>Hobbies are a great way to relax, learn new skills, and connect with others who share similar interests.</p>
+    <p>My hobbies include reading, traveling, and photography. I enjoy exploring new places and capturing moments through my camera lens.</p>
+    <p>Reading allows me to escape into different worlds, while traveling gives me the opportunity to experience diverse cultures and landscapes.</p>
+    <p>Photography is a passion that enables me to express my creativity and document my adventures.</p>
+    <ul type="square">
+        <li>Reading</li>
+        <li>Traveling</li>
+        <li>Photography</li>
+    </ul>
+    <ol type="a" start="1">
+        <li>Reading</li>
+        <li>Traveling</li>
+        <li>Photography</li>
+    </ol>
+
+    <div>
+        <img src="images/film.jpg" alt="" width="200" height="142">
+    </div>
+
+    
+    <p>HTML entities: &AMP; &copy; &lt; &gt;</p>
+</body>
+</html>

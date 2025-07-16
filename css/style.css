@@ -1,0 +1,6 @@
+/* this file contains the main CSS styles for the webpage */
+@import url("TableStyle.css");
+@import url("StructureStyle.css");
+@import url("TopNavStyle.css");
+@import url("ImageStyle.css");
+@import url("FormStyle.css");
