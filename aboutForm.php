@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - DBT</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="topnav">
-    <!-- Top nav section -->
-    <a href="./">Home</a>
-    <a href="aboutForm.php">About</a>
-    <a href="projectsForm.php">Projects</a>
-    <a href="teamForm.php">Team</a>
-    <a href="productsForm.php">Products</a>
-    <a href="formInput.php">Form</a>
-    <a href="contactForm.php">Contacts</a>
-
-    <div class="topnav-right">
-        <a href="signin.php">Sign In</a>
-        <a href="signup.php">Sign Up</a>
-    </div>
-</div>
-
-<div class="header">
-    <h1>About Us</h1>
-</div>
+<?php
+    require 'config/dbConnect.php';
+    require 'includes/header.php';
+    require 'includes/nav.php';
+?>
 <div class="row">
     <div class="content">
         <h2>Welcome to Our About Page</h2>

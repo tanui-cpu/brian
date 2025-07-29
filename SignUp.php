@@ -1,45 +1,17 @@
-<?php
-    require 'dbConnect.php';
+php
+    require 'config/dbConnect.php';
+    require 'includes/header.php';
+    require 'includes/nav.php';
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - DBT</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="topnav">
-    <!-- Top nav section -->
-    <a href="./">Home</a>
-    <a href="aboutForm.html">About</a>
-    <a href="projectsForm.html">Projects</a>
-    <a href="teamForm.html">Team</a>
-    <a href="productsForm.html">Products</a>
-    <a href="formInput.html">Form</a>
-    <a href="contactForm.html">Contacts</a>
-
-    <div class="topnav-right">
-        <a href="signIn.html">Sign In</a>
-        <a href="signUp.html">Sign Up</a>
-    </div> 
-</div>
-
-<div class="header">
-    <h1>Sign Up</h1>
-</div>
 
 <div class="row">
     <div class="content">
         <h2>Sign Up</h2>
 
-<form action="" method="post">
-
-    <input type="text" placeholder="Enter your full name" required/><br>
-    <input type="email" placeholder="Enter your email address" required/><br> 
-    <input type="tel" placeholder="Enter your phone number" required/><br>
+<form action="proc/processes.php" method="post">
+    <input type="text" name="fullname" placeholder="Enter your full name" required/><br>
+    <input type="email" name="email" placeholder="Enter your email address" required /><br>
+    <input type="tel" name="phone" placeholder="Enter your phone number" maxlength="13" required /><br>
 
 <select name="genderId" required>
     <option value="">Select your gender</option>
@@ -87,10 +59,9 @@
         <p>Feel free to reach out to us through the contact form if you have any questions or need further information.</p>
     </div>
 </div>
-<div class="footer">
-    <p>© 2025 DBT. All rights reserved.</p>
-    <p>Contact us at <a href="mailto:dbt@yahoo.com">dbt@yahoo.com</a></p>
-</div>
+<?php
+    require 'includes/footer.php';
+?>
 </div>
 </div>
 <script src="js/script.js"></script>

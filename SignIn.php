@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en"></html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web page</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="topnav">
-    <!-- Top nav section -->
-    <a href="./">Home</a>
-    <a href="aboutForm.html">About</a>
-    <a href="projectsForm.html">Projects</a>
-    <a href="teamForm.html">Team</a>
-    <a href="productsForm.html">Products</a>
-    <a href="formInput.html">Form</a>
-    <a href="contactForm.html">Contacts</a>
-
-    <div class="topnav-right">
-        <a href="signIn.html">Sign In</a>
-        <a href="signUp.html">Sign Up</a>
-    </div> 
-</div>
-
-<div class="header">
-    <h1>Sign In</h1>
-</div>
-
+<?php
+    require 'config/dbConnect.php';
+    require 'includes/header.php';
+    require 'includes/nav.php';
+?>
 <div class="row">
     <div class="content">
         <h2>Terms and Conditions</h2>Add commentMore actions
@@ -58,10 +34,9 @@
         Our mission is to provide innovative solutions that meet the needs of our customers and exceed their expectations.</p> 
     </div>
 </div>
-<div class="footer">
-    <p>© 2025 DBT. All rights reserved.</p>
-    <p>Contact us at <a href="mailto:dbt@yahoo.com">dbt@yahoo.com</a></p>
-</div>
+<?php
+    require 'includes/footer.php';
+?>
 
 </body>
 </html>
