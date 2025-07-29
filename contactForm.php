@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>More actions
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,40 +19,34 @@
 
     <div class="topnav-right">
         <a href="signIn.html">Sign In</a>
-        <a href="signUp.html">Sign Up</a>
+        <a href="signUp.php">Sign Up</a>
     </div>
 </div>
 
+
 <div class="header">
-    <h1>Form Input</h1>
+    <h1>Talk to Us</h1>
 </div>
 <div class="row">
     <div class="content">
         <h2>Talk to Us</h2>
 
-<form action="" method="post">
-    <input type="text" id="fullName" placeholder="Enter your full name" required/><br>
-    <input type="email" id="emailAddress" placeholder="Enter your email address" required /><br>
-    <input type="date" id="startDate" required />
-    <input type="date" id="endDate" required />
-    <input type="tel" placeholder="Enter your phone number" required /><br>
-        <select name="" id="">
+<form action="processes.php" method="post">
+    <input type="text" name="allnames" placeholder="Enter your full name" required/><br>
+    <input type="email" name="email" placeholder="Enter your email address" required /><br>
+    <input type="tel" name="phone" placeholder="Enter your phone number" required /><br>
+        <select name="subject" id="">
         <option value="" disabled selected>Select Subject</option>
-        <option value="option1">Email Support</option>
-        <option value="option2">eLearning Support</option>
-        <option value="option3">Attendance Support</option>
-        <option value="option5">General Feedback</option>
+        <option>Email Support</option>
+        <option>eLearning Support</option>
+        <option>Attendance Support</option>
+        <option>General Feedback</option>
     </select><br>
     <textarea name="message" rows="5" cols="30" placeholder="Enter your message here..." required></textarea><br>
     <input type="submit" value="Send Message" />
     <input type="reset" value="Clear" />
 </form>
 
-HTML forms enable you to gather user input in various formats, making it easier to collect structured data. The form above includes fields for text, email, phone number, password, color selection, date and time selection, number input, range input, file upload, a text area for messages, checkboxes, radio buttons, and a dropdown menu—each designed to capture specific information efficiently.
-You are required to create the following forms on the appropriate pages:
-- Contact Us form
-- Sign Up form
-- Sign In form
 <p>HTML forms enable you to gather user input in various formats, making it easier to collect structured data. The form above includes fields for text, email, phone number, password, color selection, date and time selection, number input, range input, file upload, a text area for messages, checkboxes, radio buttons, and a dropdown menu—each designed to capture specific information efficiently.</p>
 <p>You are required to create the following forms on the appropriate pages:</p>
 <ul>
@@ -80,11 +74,9 @@ You are required to create the following forms on the appropriate pages:
     <p>© 2025 DBT. All rights reserved.</p>
     <p>Contact us at <a href="mailto:dbt@yahoo.com">dbt@yahoo.com</a></p>
 </div>
-</div>
-<script src="js/script.js"></script>
-
+More actions
 </body>
-</html>
+
 
 
        

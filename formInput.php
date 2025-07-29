@@ -1,4 +1,4 @@
-<!DOCTYPE html>More actions
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,15 +24,17 @@
 </div>
 
 <div class="header">
-    <h1>Talk to Us</h1>
+    <h1>Form Input</h1>
 </div>
 <div class="row">
     <div class="content">
         <h2>Talk to Us</h2>
 
 <form action="" method="post">
-    <input type="text" placeholder="Enter your full name" required/><br>
-    <input type="email" placeholder="Enter your email address" required /><br>
+    <input type="text" id="fullName" placeholder="Enter your full name" required/><br>
+    <input type="email" id="emailAddress" placeholder="Enter your email address" required /><br>
+    <input type="date" id="startDate" required />
+    <input type="date" id="endDate" required />
     <input type="tel" placeholder="Enter your phone number" required /><br>
         <select name="" id="">
         <option value="" disabled selected>Select Subject</option>
@@ -74,13 +76,12 @@ You are required to create the following forms on the appropriate pages:
         our services and how we can help you achieve your goals.</p>
     </div>
 </div>
-<div class="footer">
-    <p>© 2025 DBT. All rights reserved.</p>
-    <p>Contact us at <a href="mailto:dbt@yahoo.com">dbt@yahoo.com</a></p>
+<?php include 'includes/footer.php'; ?>
 </div>
-More actions
-</body>
+<script src="js/script.js"></script>
 
+</body>
+</html>
 
 
        
