@@ -48,24 +48,9 @@
     <input type="reset" value="Clear" />
 </form>
 
-HTML forms enable you to gather user input in various formats, making it easier to collect structured data. The form above includes fields for text, email, phone number, password, color selection, date and time selection, number input, range input, file upload, a text area for messages, checkboxes, radio buttons, and a dropdown menu—each designed to capture specific information efficiently.
-You are required to create the following forms on the appropriate pages:
-- Contact Us form
-- Sign Up form
-- Sign In form
-<p>HTML forms enable you to gather user input in various formats, making it easier to collect structured data. The form above includes fields for text, email, phone number, password, color selection, date and time selection, number input, range input, file upload, a text area for messages, checkboxes, radio buttons, and a dropdown menu—each designed to capture specific information efficiently.</p>
-<p>You are required to create the following forms on the appropriate pages:</p>
-<ul>
-    <li>Contact Us form</li>
-    <li>Sign Up form</li>
-    <li>Sign In form</li>
-</ul>
-
-        <h2>Learn More About Our Team and Mission</h2>
-        <p>We are a dedicated team of professionals committed to delivering the best services to our clients. Our mission is to provide innovative solutions that meet the needs of our customers and exceed their expectations.</p>
-        <p>This is the about page. It contains information about the website, its purpose, and the team behind it.
-        You can find details on our mission, vision, and values here. We aim to provide a comprehensive overview of
-        our services and how we can help you achieve your goals.</p>
+<p>Form input fields are essential for gathering user data in a structured manner. The form above includes various input types such as text, email, date, and a dropdown menu to capture specific information efficiently.</p>
+<p>This form is designed to facilitate communication between users and our team. It allows users to submit their queries, feedback, or requests for assistance directly through the website.</p>
+<p>Feel free to reach out to us through the contact form if you have any questions or need further information. We are here to help you achieve your goals and provide the support you need.</p>
 
     </div>
     <div class="sidebar">
@@ -78,7 +63,6 @@ You are required to create the following forms on the appropriate pages:
 </div>
 <?php include 'includes/footer.php'; ?>
 </div>
-<script src="js/script.js"></script>
 
 </body>
 </html>

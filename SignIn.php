@@ -7,18 +7,7 @@
     <div class="content">
         <h2>Terms and Conditions</h2>Add commentMore actions
 <p>HTML forms enable you to gather user input in various formats, making it easier to collect structured data. The form above includes fields for text, email, phone number, password, color selection, date and time selection, number input, range input, file upload, a text area for messages, checkboxes, radio buttons, and a dropdown menu—each designed to capture specific information efficiently.</p>
-<p>You are required to create the following forms on the appropriate pages:</p>
-<ul>
-    <li>Contact Us form</li>
-    <li>Sign Up form</li>
-    <li>Sign In form</li>
-</ul>
-
-<h2>Learn More About Our Team and Mission</h2>
-<p>We are a dedicated team of professionals committed to delivering the best services to our clients. Our mission is to provide innovative solutions that meet the needs of our customers and exceed their expectations.</p>
-<p>This is the about page. It contains information about the website, its purpose, and the team behind it.
-You can find details on our mission, vision, and values here. We aim to provide a comprehensive overview of
-our services and how we can help you achieve your goals.</p>
+<p>This is the Sign In page. It allows users to log in to their accounts using their username and password. If you don't have an account, you can sign up using the provided link.</p>
     </div>
     <div class="sidebar">
                 <h2>Sign In</h2>

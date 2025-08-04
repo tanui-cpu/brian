@@ -31,19 +31,15 @@
     <li>Sign In form</li>
 </ul>
 
-        <h2>Learn More About Our Team and Mission</h2>
+        <h2>Learn more about our contact form</h2>
         <p>We are a dedicated team of professionals committed to delivering the best services to our clients. Our mission is to provide innovative solutions that meet the needs of our customers and exceed their expectations.</p>
-        <p>This is the about page. It contains information about the website, its purpose, and the team behind it.
-        You can find details on our mission, vision, and values here. We aim to provide a comprehensive overview of
-        our services and how we can help you achieve your goals.</p>
-
+        <p>This is the contact page. It contains a form for users to reach out to us with their inquiries, feedback, or support requests. We encourage open communication and are here to assist you with any questions or concerns you may have.</p>
     </div>
     <div class="sidebar">
                 <h2>Side Bar</h2>
         <p>We are a team of dedicated professionals committed to delivering high-quality services and products.</p>
-        <p>This is the about page. It contains information about the website, its purpose, and the team behind it. 
-        You can find details on our mission, vision, and values here. We aim to provide a comprehensive overview of 
-        our services and how we can help you achieve your goals.</p>
+        <p>The contact form is designed to facilitate communication between users and our team. It allows users to submit their queries, feedback, or requests for assistance directly through the website.</p>
+        <p>Feel free to reach out to us through the contact form if you have any questions or need further information. We are here to help you achieve your goals and provide the support you need.</p>
     </div>
 </div>
 <?php

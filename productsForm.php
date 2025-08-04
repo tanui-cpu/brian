@@ -13,7 +13,7 @@
    </div> 
 
 <table>
-    <caption>Stationery Products</caption>
+    <caption>Floricultural Products</caption>
     <tr>
         <th>SN</th>
         <th>Items</th>
@@ -22,44 +22,62 @@
     </tr>
     <tr>
         <td>1</td>
-        <td>Pen</td>
-        <td>10</td>
-        <td>$1.00</td>
+        <td>Rose</td>
+        <td>50</td>
+        <td>$2.00</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>Pencil</td>
-        <td>20</td>
-        <td>$0.50</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Notebook</td>
-        <td>15</td>
-        <td>$2.00   </td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Ruler</td>
-        <td>25</td>
+        <td>Tulip</td>
+        <td>30</td>
         <td>$1.50</td>
     </tr>
     <tr>
-        <td>5</td>
-        <td>Pencil</td>
+        <td>3</td>
+        <td>Lily</td>
         <td>20</td>
-        <td>$0.50</td>
+        <td>$3.00</td>  
     </tr>
+    <tr>
+        <td>4</td>
+        <td>Daisy</td>
+        <td>40</td>
+        <td>$1.00</td>  
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Sunflower</td>
+        <td>25</td>
+        <td>$2.50</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Orchid</td>
+        <td>15</td>
+        <td>$4.00</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Chrysanthemum</td>
+        <td>35</td>
+        <td>$1.75</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Peony</td>  
+        <td>10</td>
+        <td>$5.00</td>
+    </tr>
+    
 </table>
 
 
     </div>
     <div class="sidebar">
                 <h2>Side Bar</h2>
-        <p>We are a team of dedicated professionals committed to delivering high-quality services and products.</p>
-        <p>This is the about page. It contains information about the website, its purpose, and the team behind it. 
-        You can find details on our mission, vision, and values here. We aim to provide a comprehensive overview of 
-        our services and how we can help you achieve your goals.</p>
+        <p>Our floricultural products are sourced from the best growers to ensure quality and freshness. We offer a wide variety of flowers, including roses, tulips, lilies, daisies, sunflowers, orchids, chrysanthemums, and peonies. Each flower is carefully selected to meet our high standards.</p>
+        <p>Whether you are looking for flowers for a special occasion or just to brighten your day, we have something for everyone. Our products are available in various quantities and at competitive prices.</p>
+        <p>Feel free to browse our selection and contact us if you have any questions or need assistance with your order.</p>
     </div>
 </div>
 <?php
