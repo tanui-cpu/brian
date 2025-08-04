@@ -1,4 +1,6 @@
 <?php
+session_start();
+date_default_timezone_set('Africa/Nairobi');
 $servername = "localhost";       // or your server IP
 $username = "root";     // your MariaDB username
 $password = "41842773@Kip";     // your MariaDB password

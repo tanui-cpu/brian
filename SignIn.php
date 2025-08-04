@@ -1,5 +1,5 @@
 <?php
-    require 'config/dbConnect.php';
+    require 'config/dbconnect.php';
     require 'includes/header.php';
     require 'includes/nav.php';
 ?>
@@ -15,18 +15,24 @@
 </ul>
 
 <h2>Learn More About Our Team and Mission</h2>
-<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-
+<p>We are a dedicated team of professionals committed to delivering the best services to our clients. Our mission is to provide innovative solutions that meet the needs of our customers and exceed their expectations.</p>
+<p>This is the about page. It contains information about the website, its purpose, and the team behind it.
+You can find details on our mission, vision, and values here. We aim to provide a comprehensive overview of
+our services and how we can help you achieve your goals.</p>
     </div>
     <div class="sidebar">
                 <h2>Sign In</h2>
 
 <form action="" method="post">
     <input type="text" placeholder="Enter your username" required/><br>
-    <input type="password" placeholder="Enter your password" required/><br>
+    <input type="password" placeholder="Enter your password" required /><br>
+<form action="proc/processes.php" method="post">
+    <input type="text" name="username" placeholder="Enter your username" autofocus required/><br>
+    <input type="password" name="passphrase" placeholder="Enter your passphrase" required /><br>
 <br>
-    <input type="submit" value="Sign In" />  
-    <a href="signUp.html">Don't have an account? Sign Up</a>
+    <input type="submit" value="Sign In" />
+    <input type="submit" name="signin" value="Sign In" />
+    <a href="signup.php">Don't have an account? Sign Up</a>
 </form>
         <h2>Side Bar</h2>
     

@@ -1,5 +1,5 @@
 php
-    require 'config/dbConnect.php';
+    require 'config/dbconnect.php';
     require 'includes/header.php';
     require 'includes/nav.php';
 ?>
@@ -9,7 +9,7 @@ php
         <h2>Sign Up</h2>
 
 <form action="proc/processes.php" method="post">
-    <input type="text" name="fullname" placeholder="Enter your full name" required/><br>
+    <input type="text" name="fullname" placeholder="Enter your full name" required autofocus/><br>
     <input type="email" name="email" placeholder="Enter your email address" required /><br>
     <input type="tel" name="phone" placeholder="Enter your phone number" maxlength="13" required /><br>
 
@@ -62,10 +62,3 @@ php
 <?php
     require 'includes/footer.php';
 ?>
-</div>
-</div>
-<script src="js/script.js"></script>
-
-</body>
-</html>
-   

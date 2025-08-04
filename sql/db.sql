@@ -129,6 +129,66 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+INSERT INTO `users` (`userId`, `fullname`, `email`, `phone`, `username`, `password`, `token`, `status`, `roleId`, `genderId`, `userCreated`, `userUpdated`) VALUES
+(4, 'Alex okama', 'okama@yahoo.com', '+254785412623', 'alex', '$2y$10$aZgDwu1rNMw36dgod0kvxeTl2UzOwvUqrC0J08za6WMS.A6xvxWW.', NULL, 0, 3, 2, '2025-07-31 19:06:32', '2025-07-31 19:06:32');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `gender`
+--
+ALTER TABLE `gender`
+  ADD PRIMARY KEY (`genderId`),
+  ADD UNIQUE KEY `gender` (`gender`);
+
+--
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`messageId`);
+
+--
+-- Indexes for table `roles`
+--
+ALTER TABLE `roles`
+  ADD PRIMARY KEY (`roleId`),
+  ADD UNIQUE KEY `role` (`role`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`userId`),
+  ADD UNIQUE KEY `email` (`email`),
+  ADD UNIQUE KEY `username` (`username`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `gender`
+--
+ALTER TABLE `gender`
+  MODIFY `genderId` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `messages`
+--
+ALTER TABLE `messages`
+  MODIFY `messageId` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `roles`
+--
+ALTER TABLE `roles`
+  MODIFY `roleId` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `userId` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+COMMIT;

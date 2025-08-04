@@ -1,5 +1,5 @@
-?php
-    require 'config/dbConnect.php';
+<?php
+    require 'config/dbconnect.php';
     require 'includes/header.php';
     require 'includes/nav.php';
 ?>
@@ -8,7 +8,7 @@
         <h2>Talk to Us</h2>
 
 <form action="processes.php" method="post">
-    <input type="text" name="allnames" placeholder="Enter your full name" required/><br>
+    <input type="text" name="allnames" placeholder="Enter your full name" required autofocus/><br>
     <input type="email" name="email" placeholder="Enter your email address" required /><br>
     <input type="tel" name="phone" placeholder="Enter your phone number" required /><br>
         <select name="subject" id="">
@@ -46,7 +46,7 @@
         our services and how we can help you achieve your goals.</p>
     </div>
 </div>
-?php
+<?php
     require 'includes/footer.php';
 ?>
 </body>
